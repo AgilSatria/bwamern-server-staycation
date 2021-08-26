@@ -9,7 +9,7 @@ const flash = require("connect-flash");
 
 //koneksi moongos
 const mongoose = require("mongoose");
-mongoose.connect("mongodb://127.0.0.1:27017/db_staycation", {
+mongoose.connect("mongodb+srv://kamensatria:bwamern@cluster0.8yqdi.mongodb.net/db_staycation?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
